@@ -1,0 +1,255 @@
+/*
+   Mid-term Project for Info 1695--Web Design 1
+   Author: Karie Funk
+   stylesheet for music.htm
+*/
+
+
+header, section, footer, aside, nav, article, figure, figcaption {
+	display: block;
+	background-color: white;
+	
+}
+
+
+/* Body style */
+
+body {
+	margin: 0px auto;
+	width: 1000px;
+	background-color: black;
+}
+
+/* Header styles */
+
+header{
+  
+   background-image: url(header.gif); 
+   background-position: 50% 50%;
+   background-repeat: repeat-x;
+   height: 180px;
+   
+   
+}
+
+/* Horizontal Navigation List styles */
+nav.horizontal {
+	padding-top: 5px;
+	padding-bottom: 10px;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+	border-bottom: 1px solid black;
+}
+
+nav.horizontal li {
+   
+    font-size: 16px;
+    height: 50px;
+    line-height: 30px;
+    width: 180px;
+    display: block;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+	font-family: helvetica, sans-serif;
+	
+}
+
+nav.horizontal li a {
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    
+     border-radius: 30px/25px;
+     -webkit-border-radius: 30px/25px;
+	 -moz-border-radius: 30px/25px;
+   
+}
+
+nav.horizontal li a:hover {
+    color: white;
+    background-color: #722540;
+}
+
+article {
+	
+	overflow: auto;
+	
+}
+
+article.about h1 {
+	font-size: 50px;
+	font-weight: 300;
+	font-family: helvetica, sans-serif;
+	color: #722540;
+	margin-bottom: 0px;
+	
+	
+	
+}
+
+article.about p{
+	font-family: helvetica, geneva, sans-serif;
+	line-height: 20px;
+}
+
+
+	
+
+	
+article {
+	
+	overflow: auto;
+	width: 100%;
+}
+
+article.books h1 {
+	font-size: 50px;
+	font-weight: 300;
+	font-family: helvetica, sans-serif;
+	color: #722540;
+	margin-bottom: 0px;
+	
+	
+}
+
+article.books p{
+	font-family: helvetica, geneva, sans-serif;
+	line-height: 20px;
+}
+
+
+figure.artist h2 {
+	font-family: helvetica, sans-serif;
+	color: #722540;
+	padding-left: 25px;
+	font-weight: 200;
+}
+
+
+figure.artist ul {
+	 list-style-type: circle;
+	 font-family: helvetica, sans-serif;
+	
+}
+
+
+
+
+img.first {
+	width: 158px;
+	height: 255px;
+	margin-right: 20px;
+	margin-top: 35px;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+img.second {
+	width: 155px;
+	height: 255px;
+	margin-right: 20px;
+	margin-top: 35px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+img.third {
+	width: 166px;
+	height: 255px;
+	margin-top: 35px;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+aside {
+	float: right;
+	width: 400px;
+	height: 500px;
+	
+}
+
+aside p {
+	margin-top: 35px;
+	padding-right: 25px;
+	
+	
+}
+
+
+
+table {
+	border: 3px solid black;
+    border-collapse: collapse;
+    width: 550px;
+}
+
+table th, td {
+    border: 1px solid black;
+}
+
+thead tr{
+    
+    height: 50px;
+}
+
+
+
+figure.table h1 {
+	font-family: helvetica, sans-serif;
+	font-weight: 200;
+	font-size: 25px;
+	color: #722540;
+	text-align: center;
+	margin-top: -80px;
+	
+	
+}
+
+figure.table {
+	float: right;
+	margin-bottom: 100px;
+	margin-right: 225px;
+}
+
+
+
+table tr:nth-of-type(even) {
+  background-color: tan;
+}
+
+
+tbody tr {
+    height: 50px;
+	font-family: sans-serif;
+	font-variant: small-caps;
+
+}
+
+
+tbody td {
+    font-size: 12px;
+    vertical-align: middle;
+    text-align: center;
+	font-variant: normal;
+	
+}
+
+
+
+footer address {
+   clear: right;
+   border-top: 1px solid black;
+   text-align: center;
+   font-style: normal;
+   font-family: sans-serif;
+   padding-top: 5px;
+}
